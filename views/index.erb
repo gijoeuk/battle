@@ -1,0 +1,52 @@
+<style>
+  form
+  {
+    background:lightgrey;
+    padding:10px;
+    width:50%;
+    border-radius:5px;
+    margin:10px
+  }
+  label
+  {
+    font-size:20px;
+    display:block;
+  }
+  input[type=text]
+  {
+    padding:7px;
+    width:200px;
+    font-size:15px;
+  }
+  input[type=submit]
+  {
+    display:block;
+    font-size:15px;
+    width:100px;
+    height:50px;
+  }
+
+  div
+  {
+    padding:5px;
+  }
+
+</style>
+'Testing infrastructure working'
+<h1> Enter your names to begin </h1>
+<form method="post" action="/names" a>
+  <div>
+  <label for=player1> Player1 Name : </label>
+  <input type="text" name="player1">
+</div>
+
+<div>
+  <label for=player2> Player2 Name : </label>
+  <input type="text" name="player2">
+</div>
+
+<div>
+  <input type="submit" value="submit">
+</div>
+
+</form>
